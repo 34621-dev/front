@@ -82,13 +82,14 @@ export async function editarPerfil(token, nome, email) {
   const dados = await resposta.json();
 
   if (!resposta.ok) {
-    throw new Error(dados.mensagem || "Não foi possível atualizar o perfil.");
+    throw new Error(dados.mensagem || "Não foi possível salvar.");
   }
 
   return dados;
 }
 
 // 🚧 TAREFA 4 — EXCLUSÃO (DELETE)
+
 export async function desativarConta(token) {
   const resposta = await fetch(`${API_URL}/api/usuarios/desativar`, {
     method: "DELETE",
