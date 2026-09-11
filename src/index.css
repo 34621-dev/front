@@ -3,17 +3,17 @@
    ═══════════════════════════════════════════════════════════════ */
 
 :root {
-  --fundo: #0b0f1a;
-  --fundo-2: #121829;
-  --cartao: #161d33;
-  --borda: #263153;
+  --fundo: #9c2aa0;
+  --fundo-2: #7c1d80;
+  --cartao: #e463b9;
+  --borda: #ce5bb5;
   --texto: #e8ecf8;
-  --texto-fraco: #93a0c4;
-  --acento: #6d8bff;
-  --acento-2: #b06dff;
+  --texto-fraco: #e1e4ec;
+  --acento: #ff8fdd;
+  --acento-2: #cf43b8;
   --ok: #34d399;
   --atencao: #fbbf24;
-  --perigo: #f87171;
+  --perigo: #a109cf;
   --raio: 14px;
 }
 
@@ -325,11 +325,11 @@ code {
   border-radius: 6px;
 }
 .selo-put {
-  background: rgba(251, 191, 36, 0.16);
+  background: rgba(255, 253, 249, 0.16);
   color: var(--atencao);
 }
 .selo-delete {
-  background: rgba(248, 113, 113, 0.16);
+  background: rgba(232, 10, 252, 0.397);
   color: var(--perigo);
 }
 
@@ -516,7 +516,7 @@ code {
   color: var(--atencao);
 }
 .m-DELETE {
-  background: rgba(248, 113, 113, 0.15);
+  background: rgba(255, 248, 248, 0.329);
   color: var(--perigo);
 }
 .rede-url {
